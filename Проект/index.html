@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/jquery.knob.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    
 </head>
 <body>
+  
+
+
+
   <header>
     <div class="nav">
       <div class="logo"><img src="img/Headerlogo.png" alt="CUDA" width="80%"></div>
       <div class="menu">
         <ul>
-          <li><a href="#">HOME</a></li>
+          <li class="active"><a href="#">HOME</a></li>
           <li><a href="#">ABOUT</a></li>
           <li><a href="#">WORK</a></li>
           <li><a href="#">BLOG</a></li>
@@ -31,6 +39,9 @@
       <a href="#">WORK WITH US!</a>
     </div>
   </header>
+
+
+
   <div class="services">
     <div class="services_text">
       <h1 align="center">SERVICES WE PROVIDE</h1>
@@ -56,10 +67,106 @@
       </div>
       <div class="services_tools_item">
         <img src="img/rocket.png" alt="flag">
-        <h2>ROCKET SCIENCE</h2>
+        <h2 align="center">ROCKET SCIENCE</h2>
         <p align="center">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
       </div>
     </div>
   </div>
+
+
+
+  <div class="meet">
+    <div class="meet_text">
+      <h1 align="center">MEET OUR BEAUTIFUL TEAM</h1>
+      <p align="center">We are a small team of designers and developers, who help brands with big ideas.</p>
+    </div>
+    <div class="meet_tools">
+      <div class="meet_tools_item">
+        <img src="img/circle.png" alt="avatar-1">
+        <h2 align="center">ANNE HATHAWAY</h2>
+        <h4>CEO / Marketing Guru</h4>
+        <p align="center">Lorem ipsum dolor sit amet, 
+          consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+          <div class="meet_tools_icons">
+            <a href="#"><img src="img/Facebook Icon.png" alt="facebook"></a>
+            <a href="#"><img src="img/Twitter.png" alt="twitter"></a>
+            <a href="#"><img src="img/LinkedIn icon.png" alt="linkedin"></a>
+            <a href="#"><img src="img/Mail.png" alt="mail"></a>
+          </div>
+      </div>
+      <div class="meet_tools_item">
+        <img src="img/circle.png" alt="avatar-2">
+        <h2>Kate Upton</h2>
+        <h4>Creative Director</h4>
+        <p align="center">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+        <div class="meet_tools_icons">
+          <a href="#"><img src="img/Twitter.png" alt="twitter"></a>
+          <a href="#"><img src="img/LinkedIn icon.png" alt="linkedin"></a>
+          <a href="#"><img src="img/Mail.png" alt="mail"></a>
+        </div>
+      </div>
+      <div class="meet_tools_item">
+        <img src="img/circle.png" alt="avatar-3">
+        <h2>Olivia Wilde</h2>
+        <h4>Lead Designer</h4>
+        <p align="center">Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+        <div class="meet_tools_icons">
+          <a href="#"><img src="img/Facebook Icon.png" alt="facebook"></a>
+          <a href="#"><img src="img/Twitter.png" alt="twitter"></a>
+          <a href="#"><img src="img/LinkedIn icon.png" alt="linkedin"></a>
+          <a href="#"><img src="img/Mail.png" alt="mail"></a>
+        </div>
+      </div>
+      <div class="meet_tools_item">
+        <img src="img/circle.png" alt="avatar-4">
+        <h2>Ashley Greene</h2>
+        <h4>SEO / Developer</h4>
+        <p align="center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        <div class="meet_tools_icons">
+          <a href="#"><img src="img/Facebook Icon.png" alt="facebook"></a>
+          <a href="#"><img src="img/Twitter.png" alt="twitter"></a>
+          <a href="#"><img src="img/Mail.png" alt="mail"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="skills">
+    <div class="skills_text">
+      <h1 align="center">WE GOT SKILLS!</h1>
+      <p align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="skills_tools">
+      <div class="skills_tools_item">
+        <input type="text" value="75" class="dial" data-readOnly="true" data-fgColor="#30BAE7" data-thickness="0.18" data-width="140">
+        <h2>WEB DESIGN</h2>
+      </div>
+      <div class="skills_tools_item">
+        <input type="text" value="40" class="dial1" data-readOnly="true" data-fgColor="#D74680" data-thickness="0.18" data-width="140">
+        <h2>HTML / CSS</h2>
+      </div>
+      <div class="skills_tools_item">
+        <input type="text" value="60" class="dial2" data-readOnly="true" data-fgColor="#15C7A8" data-thickness="0.18" data-width="140">
+        <h2>GRAPHIC DESIGN</h2>
+        
+      </div>
+      <div class="skills_tools_item">
+        <input type="text" value="60" class="dial3" data-readOnly="true" data-fgColor="#EB7D4B" data-thickness="0.18" data-width="140">
+        <h2>UI / UX</h2>
+        
+      </div>
+    </div>
+  </div>
+
+
+        
+  <script src="js/diagramm.js"></script>      
+        
+
+
+
 </body>
 </html>
