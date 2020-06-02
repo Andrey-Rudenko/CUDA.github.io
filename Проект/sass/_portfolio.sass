@@ -1,0 +1,75 @@
+.portfolio
+    background-color: #E7F1F8
+    display: flex
+    align-items: center
+    flex-direction: column
+    width: 100%
+    background-color: #FFDD99
+.portfolio_text
+    width: 42%
+    margin-bottom: 30px
+    h1
+        color: #3C4761
+        font-family: 'Titillium Web', sans-serif
+        margin-top: 100px
+        position: relative
+    p
+        font-family: 'Titillium Web', sans-serif
+        color: #4E5971
+    h1::after 
+        content: ""
+        position: absolute
+        bottom: -10px
+        left: 0
+        width: 80px
+        height: 4px
+        background-color: #C8D9E5
+        right: 0
+        margin: 0 auto
+        display block
+.portfolio_menu
+    width: 40%
+    height: 80px
+    .active
+        a
+            background-color: #FFFFFF
+            border-radius: 5px
+    ul
+        display: flex
+        list-style: none
+        justify-content: center
+        margin: 0
+        padding: 0
+
+        li
+            margin-left: 5px
+            margin-right: 5px
+            a
+                color: #514C43
+                text-decoration: none
+                font-family: 'Titillium Web', sans-serif
+                padding: 8px 17px
+                transition: 0.2s
+                background-color: #EBC985
+                border-radius: 5px
+            a:hover
+                background-color: #FFFFFF
+                border-radius: 5px
+                padding: 8px 17px
+            a:active
+                background-color:#e7e7e7
+
+.portfolio_tools
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    .portfolio_tools_item
+        display: flex
+        flex-direction: column
+        align-items: center
+        font-family: 'Titillium Web', sans-serif
+        color: #514C43
+.r
+    margin-right: 18%
+.l
+    margin-left: 18%
