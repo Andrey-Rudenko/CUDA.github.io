@@ -1,0 +1,81 @@
+.get
+    display: flex
+    align-items: center
+    flex-direction: column
+    width: 100%
+    background-color: #3C5499
+.get_text
+    width: 60%
+    margin-bottom: 30px
+    h1
+        color: white
+        font-family: 'Titillium Web', sans-serif
+        margin-top: 100px
+        position: relative
+    p
+        font-family: 'Titillium Web', sans-serif
+        color: white
+    h1::after 
+        content: ""
+        position: absolute
+        bottom: -10px
+        left: 0
+        width: 80px
+        height: 4px
+        background-color: #273A71
+        right: 0
+        margin: 0 auto
+        display block
+
+        
+.get_button
+    height: 120px
+    margin-top: 80px
+    a
+        font-weight: 700
+        color: white
+        text-decoration: none
+        padding: 20px 70px 
+
+        border-radius: 5px
+        background: #30BAE7
+        box-shadow: 0 -5px #299EC5 inset
+        transition: 0.2s
+        font-family: 'Titillium Web', sans-serif
+    a:hover
+        background: #299EC5
+    a:active
+        background: #2488aa
+        box-shadow: 0 5px #2488aa inset
+
+.field
+    display: flex
+    font-family: 'Titillium Web', sans-serif
+    input
+        background-color: #273A71
+        outline: none
+        border: 1px solid #273A71
+        border-radius: 4px
+        color: white
+        padding-bottom: 15px
+        padding-top: 15px
+        padding-left: 20px
+        margin-right: 10px
+        margin-left: 10px
+        margin-bottom: 30px
+    .raz::placeholder
+        color: white
+   
+.textarea
+    font-family: 'Titillium Web', sans-serif
+    textarea
+        background-color: #273A71
+        outline: none
+        -moz-appearance: none
+        border: 1px solid #273A71
+        border-radius: 4px
+        color: white
+        padding-left: 20px
+        padding-top: 15px
+    .raz::placeholder
+        color: white
